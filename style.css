@@ -107,12 +107,12 @@ body{
    color: #ff7200;
     font-size: 15px;
     font-weight: bold;
-}
+  }
 .main{
   background-color: white;
     }
-    .main h1{
-        color: #ff7200;
+     h1{
+        color:#2b2323;
         text-align: center;
         padding-top: 25px;
         font-weight: bold;
@@ -144,7 +144,7 @@ body{
 footer{
     text-align: center;
     padding:30px;
-    font-size: 25px;
+    font-size:20px;
     color:#424040;
   }
   footer a{
@@ -157,3 +157,39 @@ footer{
   font-weight: bold;
   font-size:28px;
  }
+
+/*project css*/
+.project-layout{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap:15px;
+  flex-wrap: wrap;
+}
+.project-layout img{
+height:280px;
+width:100%;
+}
+.project-card h3{
+text-align: center;
+margin:5px;
+color:#ff7200;
+}
+.project-card{
+  padding: 20px;
+  width:280px;
+  height:100%;
+  background-color:#383636;
+  margin:15px;
+  border-radius:10% ;
+  }
+  .project-card:hover{
+       background-color:#244424;
+  }
+.project-card p{
+  color: #ece3e3;
+  font-size:20px;
+  }
+
+  /*hobby css*/
+  
