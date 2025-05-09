@@ -48,3 +48,23 @@ projects.forEach(project=>{
     `;
     container.appendChild(card);
 });
+
+//services
+const services=[
+  {
+    image:"gttt.jpg",
+    title:"HTML Hosting",
+    description:"You can have any thing here.",
+  },
+];
+const container1= document.getElementById("service-container");
+ services.forEach(service=>{
+  const card1=document.createElement("div");
+  card1.className="service-card";
+  card1.innerHTML=`
+  <img src="${service.image}" alt="${service.title}"/>
+  <h3>${service.title}</h3>
+  <p>${service.description}</P>
+  `;
+  container1.appendChild(card1);
+});
