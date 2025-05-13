@@ -238,5 +238,20 @@ color:#ff7200;
       }
     
   /*hobby css*/
-
-  
+.home{
+  display: flex;
+  background-color: #ece3e3;
+margin:20px;
+}
+ .leftcontent{
+     text-align: center;
+     padding:20px;
+     font-size: 30px;
+ }
+   .rightcontent{
+    padding: 20px;
+     }
+     .rightcontent   img{
+      height:100%;
+      width:350px;
+     }
