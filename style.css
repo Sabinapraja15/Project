@@ -240,3 +240,32 @@ color:#ff7200;
   /*hobby css*/
 
   
+/*review css*/
+.review-layout{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap:15px;
+  flex-wrap: wrap;
+  padding-bottom:25px;
+}
+.review-layout img{
+
+
+border-radius:50%;
+}
+.review-card h4{
+text-align: center;
+margin:5px;
+color:#ff7200;
+}
+.review-card{
+  padding: 20px;
+  width:280px;
+  height:100%;
+  background-color:#383636;
+  margin:20px;
+  border-radius:10% ;
+  }
+
+  

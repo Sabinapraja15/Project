@@ -68,3 +68,33 @@ const container1= document.getElementById("service-container");
   `;
   container1.appendChild(card1);
 });
+
+//review
+const reviews=[
+{
+  image: "gt1.jpg",
+  title:"Elon Musk",
+  description:"\"Great work very creative and professional\"",
+},
+{
+  image: "gt1.jpg",
+  title:"Mark Zuckerberg",
+  description:"\"Love the design and animations.Highly recommended\"",
+},
+{
+  image: "gt1.jpg",
+  title:"Steve Jobs",
+  description:"\"Clean code and responsive layout. Impressive\"",
+},
+];
+const container2 = document.getElementById("review-container");
+reviews.forEach(review=>{
+  const card2= document.createElement("div");
+  card2.className="card-review";
+  card2.innerHTML=`
+  <img src="${review.image}" alt="${reviews.title}"/>
+  <h4>${review.title}</h4>
+  <p>${review.description}</p>
+  `;
+  container2.appendChild(card2);
+});
