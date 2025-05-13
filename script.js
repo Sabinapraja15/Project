@@ -79,7 +79,7 @@ const reviews=[
 {
   image: "gt1.jpg",
   title:"Mark Zuckerberg",
-  description:"\"Love the design and animations.Highly recommended\"",
+  description:"\"Love the design and animations.\"",
 },
 {
   image: "gt1.jpg",
@@ -93,7 +93,7 @@ reviews.forEach(review=>{
   card2.className="card-review";
   card2.innerHTML=`
   <img src="${review.image}" alt="${reviews.title}"/>
-  <h4>${review.title}</h4>
+  <h3>${review.title}</h3>
   <p>${review.description}</p>
   `;
   container2.appendChild(card2);
