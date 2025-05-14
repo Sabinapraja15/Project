@@ -305,12 +305,13 @@ background-color:#9a9696;
 }
 .card-review{
   text-align: center;
-      padding: 30px;
+      padding: 20px;
       width:250px;
       height:100%;
       background-color:#ece3e3;
       margin:15px;
       border-radius:10%;
+      border:1px solid black;
       }
       .card-review h3{
       font-weight: bold;
