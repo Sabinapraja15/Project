@@ -173,10 +173,11 @@ height:280px;
 width:100%;
 border-radius:15%;
 }
-.project-card h3{
+.project-card h3,a{
 text-align: center;
 margin:5px;
 color:#ff7200;
+text-decoration: none;
 }
 .project-card{
   padding: 20px;

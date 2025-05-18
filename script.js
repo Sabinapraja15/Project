@@ -21,19 +21,22 @@ type();
 //projects
 const projects = [
   {
-    image: "gttt.jpg",
+    image: "bmi.png",
     title: "Animated Navbar",
     description: "A simple animated navbar using HTML, CSS, and JavaScript.",
+    src:"https://sabinapraja15.github.io/bmi/",
   },
   {
     image: "gttt.jpg",
     title:"HTML CSS",
     description: "A simple project using HTML, CSS, and JavaScript.",
+    src:"https://sabinapraja15.github.io/bmi/",
  },
  {
   image: "gttt.jpg",
   title: "Landing Pages",
   description: "A simple landing page using HTML, CSS, and JavaScript.",
+  src:"https://sabinapraja15.github.io/bmi/",
  },
 ];
 const container = document.getElementById("project-container");
@@ -45,6 +48,7 @@ projects.forEach(project=>{
   <img src="${project.image}" alt="${project.title}"/>
   <h3>${project.title}</h3>
   <p>${project.description}</p>
+  <a href= "${project.src}">View Projects</a>
     `;
     container.appendChild(card);
 });
